@@ -1,5 +1,8 @@
 public class HelloWorld {
     public static String hello(String name) {
-        return System.out.println("Hello, World!");
+		if (name==null || "".equals(name)){
+			name = "World";
+		}
+		return "Hello, " + name + "!";
     }
 }

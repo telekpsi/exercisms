@@ -13,19 +13,19 @@ public class HelloWorldTest {
     }
 
     @Test
-    @Ignore
+    
     public void emptyStringIsComparedByValue() {
         assertEquals("Hello, World!", HelloWorld.hello(new String("")));
     }
     
     @Test
-    @Ignore
+   
     public void helloSampleName() {
         assertEquals("Hello, Alice!", HelloWorld.hello("Alice"));
     }
 
     @Test
-    @Ignore
+    
     public void helloAnotherSampleName() {
         assertEquals("Hello, Bob!", HelloWorld.hello("Bob"));
     }
